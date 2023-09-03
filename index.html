@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Test</title>
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon" />
+    <!-- stylesheets link -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- custom stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <aside class="position-fixed vh-100 end-0 top-0 bottom-0">
+      <div class="row h-100">
+        <div
+          class="side-bar col-md-10 px-5 py-4 bg-black d-flex flex-column justify-content-between position-relative"
+        >
+          <nav class="text-capitalize overflow-hidden w-100">
+            <ul class="position-relative">
+              <li><a id="searchBtn" class="link1" href="">search</a></li>
+              <li>
+                <a id="categoriesBtn" class="link2" href="">categories</a>
+              </li>
+              <li><a id="areaBtn" class="link3" href="">area</a></li>
+              <li>
+                <a id="ingredientsBtn" class="link4" href="">ingredients</a>
+              </li>
+              <li><a id="contactBtn" class="link5" href="">contact us</a></li>
+            </ul>
+          </nav>
+          <div class="copy-rights text-white">
+            <div class="socila-links">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <p>Copyright Â© 2019 All Rights Reserved.</p>
+          </div>
+        </div>
+        <div
+          class="side-nav col-md-2 bg-white d-flex align-items-center justify-content-between flex-column py-4"
+        >
+          <img class="img-fluid" src="imgs/logo.png" alt="" />
+          <i class="fa-solid fa-x fs-2 d-none"></i>
+          <i class="fa-solid fa-bars fs-2"></i>
+          <div class="share d-flex flex-column">
+            <i class="fa-solid fa-globe pb-2"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <div class="loading position-fixed start-0 end-0 top-0 bottom-0 bg-black">
+      <div class="spinner-border" role="status"></div>
+    </div>
+    <div
+      class="loading-search position-fixed start-0 end-0 top-0 bottom-0 bg-black"
+    >
+      <div class="spinner-border" role="status"></div>
+    </div>
+    <div class="body py-5">
+      <div class="container">
+        <div id="search"></div>
+        <div id="generalMealsBody" class="row"></div>
+      </div>
+    </div>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
