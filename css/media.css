@@ -1,0 +1,53 @@
+@media (max-width: 767.98px) {
+  .body {
+    padding-left: 60px;
+    padding-right: 3px;
+  }
+  .body input {
+    width: 98%;
+    margin-left: auto;
+  }
+  .body form input {
+    width: 100%;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  aside {
+    width: 50% !important;
+  }
+  aside .row {
+    flex-direction: column !important;
+  }
+  .side-bar {
+    height: 100% !important;
+    padding: 2rem !important;
+  }
+  aside .side-nav {
+    height: 100vh !important;
+    width: 20% !important;
+  }
+  .body .overlay {
+    bottom: -500px;
+  }
+  .meal img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 767.98px) and (max-width: 1199.98px) {
+  .body {
+    padding-left: 70px;
+  }
+  aside .side-nav {
+    width: 15% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .body {
+    padding-left: 60px;
+    padding-right: 3px;
+  }
+}
