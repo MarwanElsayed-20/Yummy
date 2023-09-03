@@ -37,6 +37,9 @@ i {
 ::placeholder {
   color: grey !important;
 }
+.container {
+  height: 100% !important; 
+}
 /* aside */
 aside {
   z-index: 999;
